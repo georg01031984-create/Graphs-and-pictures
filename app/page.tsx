@@ -173,7 +173,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen items-center justify-center flex-col gap-4 p-8 max-w-7xl mx-auto">
-      <h1 className="text-4xl font-bold w-full text-center">Данные по сборке и продаже.</h1>
+      <h1 className="text-4xl font-bold w-full text-center">Данные по сборке и продаже за период.</h1>
 
       {/* Промпт и вебхук */}
       <section className="w-[calc(100%-100px)] max-w-2xl border rounded-xl p-6 bg-white/80 shadow-sm">
