@@ -177,7 +177,7 @@ export default function Home() {
 
       {/* Промпт и вебхук */}
       <section className="w-[calc(100%-100px)] max-w-2xl border rounded-xl p-6 bg-white/80 shadow-sm">
-        <h2 className="text-xl font-semibold mb-3">Что вы хотите увидеть?</h2>
+        <h2 className="text-xl font-semibold mb-3">Что вам нарисовать?</h2>
         <textarea
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
